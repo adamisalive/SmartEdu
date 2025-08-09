@@ -22,4 +22,13 @@ SmartEdu is an interactive online learning platform designed to empower students
 - `/assets` - Images, icons, and other static resources used in the project.
 
 ---
+## Technologies Used
+HTML5
+
+CSS3 (Flexbox/Grid for responsive layouts)
+
+JavaScript (Vanilla JS for interactive elements)
+
+Optional: Fonts and icons from FontAwesome
+
 
