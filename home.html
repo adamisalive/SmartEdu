@@ -4,9 +4,169 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartEdu-Home</title>
+    <link rel="stylesheet" href="hom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <section class="home-screen">
+    <section class="page" id="home">
+  <nav>
+    <div class="logo">SmartEdu</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#courses">Notes</a></li>
+      <li><a href="#quizzes">Quizzes</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Empower Your<br> Learning with<br> SmartEdu</h1>
+        <button>Start Learning</button>
+      </div>
+      <img src="boy reading.jpg" alt="Student reading">
+    </div>
+
+    <h2>Subjects/Courses</h2>
+    <div class="subjects">
+      <div class="subject"><i class="fas fa-atom"></i><p>Physics</p></div>
+      <div class="subject"><i class="fas fa-vials"></i><p>Chemistry</p></div>
+      <div class="subject"><i class="fas fa-square-root-alt"></i><p>Mathematics</p></div>
+    </div>
+
+    <h2>Study Notes</h2>
+    <form>
+      <input type="text" placeholder="Note Title">
+      <textarea placeholder="Note Content"></textarea>
+      <button type="submit">Save Note</button>
+    </form>
+
+    <h2>Quiz Section</h2>
+    <form>
+      <select>
+        <option>Select Topic</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+
+    <h2>Contact Form</h2>
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <button type="submit">Save</button>
+    </form>
+  </div>
+</section>
+
+
+<section class="page" id="courses">
+  <nav>
+    <div class="logo">SmartEdu</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#courses">Notes</a></li>
+      <li><a href="#quizzes">Quizzes</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Courses</h1>
+    <div class="course-grid">
+      <div class="course"><i class="fas fa-atom"></i><h4>Physics</h4><p>Energy and mechanics</p></div>
+      <div class="course"><i class="fas fa-vials"></i><h4>Chemistry</h4><p>Bonding & reactions</p></div>
+      <div class="course"><i class="fas fa-square-root-alt"></i><h4>Mathematics</h4><p>Algebra & calculus</p></div>
+      <div class="course"><i class="fas fa-dna"></i><h4>Biology</h4><p>Cells & organisms</p></div>
+      <div class="course"><i class="fas fa-landmark"></i><h4>History</h4><p>Ancient civilizations</p></div>
+      <div class="course"><i class="fas fa-globe"></i><h4>Geography</h4><p>Earth & climate</p></div>
+      <div class="course"><i class="fas fa-book"></i><h4>English</h4><p>Grammar & literature</p></div>
+      <div class="course"><i class="fas fa-laptop"></i><h4>Computer</h4><p>Programming basics</p></div>
+    </div>
+
+    <h2>Note Title</h2>
+    <form>
+      <input type="text" placeholder="Note Title">
+      <textarea placeholder="Note Content"></textarea>
+      <button type="submit">Save Note</button>
+    </form>
+
+    <h2>Saved Notes</h2>
+    <div class="saved-notes">
+      <div class="note-card">Lecture Notes</div>
+      <div class="note-card">Chemical Bonding Overview</div>
+      <div class="note-card">Algebra Study Guide</div>
+    </div>
+  </div>
+</section>
+
+
+<section class="page" id="quizzes">
+  <nav>
+    <div class="logo">SmartEdu</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#courses">Notes</a></li>
+      <li><a href="#quizzes">Quizzes</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Quizzes</h1>
+    <form>
+      <select>
+        <option>Select Topic</option>
+      </select>
+    </form>
+
+    <div class="quiz-container">
+      <div class="quiz-question">What is the capital of France?</div>
+      <div class="quiz-options">
+        <label><input type="radio" name="q1"> London</label>
+        <label><input type="radio" name="q1"> Paris</label>
+        <label><input type="radio" name="q1"> Berlin</label>
+      </div>
+      <button>Submit</button>
+    </div>
+  </div>
+</section>
+
+
+<section class="page" id="contact">
+  <nav>
+    <div class="logo">SmartEdu</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#courses">Notes</a></li>
+      <li><a href="#quizzes">Quizzes</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Contact</h1>
+    <div class="contact-grid">
+      <div class="contact-box">
+        <h3>Contact Form</h3>
+        <form>
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <div class="contact-box">
+        <h3>Contact Info</h3>
+        <p>123 Learning St, Knowledge City</p>
+        <p>Email: info@smartedu.com</p>
+      </div>
+      <div class="contact-box">
+        <h3>contact</h3>
+        
+      </div>
+    </div>
+  </div>
         
     </section>
 </body>
