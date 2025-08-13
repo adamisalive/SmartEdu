@@ -20,3 +20,4 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Contact info saved!");
     });
 });
+
