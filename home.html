@@ -1,14 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmartEdu-Home</title>
+    <title>SmartEdu - Home</title>
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <section class="home-screen">
-        <div></div>
-        <div></div>
+    <nav>
+        <div class="logo">SmartEdu</div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="quizzes.html">Quizzes</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Empower Your Learning with SmartEdu</h1>
+        <button>Start Learning</button>
     </section>
+
+    <h2 style="padding:20px;">Subjects/Courses</h2>
+    <div class="cards">
+        <div class="card">Physics</div>
+        <div class="card">Chemistry</div>
+        <div class="card">Mathematics</div>
+    </div>
+
+    <h2 style="padding:20px;">Study Notes</h2>
+    <form>
+        <input type="text" placeholder="Note Title">
+        <textarea placeholder="Note Content"></textarea>
+        <button type="submit">Save Note</button>
+    </form>
+
+    <h2 style="padding:20px;">Quiz Section</h2>
+    <form>
+        <select>
+            <option>Select Topic</option>
+            <option>Physics</option>
+            <option>Chemistry</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2 style="padding:20px;">Contact Form</h2>
+    <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <button type="submit">Save</button>
+    </form>
+
+    <footer>© 2025 SmartEdu</footer>
+    <script src="home.js"></script>
+
 </body>
+
 </html>
