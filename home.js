@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", () => {
     const noteForm = document.querySelectorAll("form")[1]; // Second form is note form
     const noteTitle = noteForm.querySelector("input[type='text']");
