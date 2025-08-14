@@ -54,6 +54,15 @@ nav a {
   background: #004d29;
 }
 
+img{
+
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  border-radius: 10px;
+  
+}
+
 
 .cards {
   display: grid;
