@@ -28,17 +28,29 @@ nav a {
   font-weight: bold;
 }
 
+ .hero{
+  padding: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+ }
+
+ .hero-image {
+  width: 35%;
+  height: auto;
+  border-radius: 5px;
+  margin-left: 5px;
+ }
 
 
-.hero {
-  text-align: center;
-  padding: 40px 20px;
+.hero h1{
+ font-size: 40px;
+ orphans: 1;
+  margin-right: 5px;
 }
 
-.hero h1 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-}
 
 .hero button {
   background: #006837;
@@ -48,20 +60,22 @@ nav a {
   cursor: pointer;
   margin-top: 10px;
   border-radius: 5px;
+  position: absolute;
+  bottom: 15%;
 }
 
 .hero button:hover {
   background: #004d29;
 }
 
-img{
+/* img{
 
   width: 100%;
   height: auto;
   max-width: 400px;
   border-radius: 10px;
   
-}
+} */
 
 
 .cards {
@@ -86,6 +100,7 @@ img{
 
 form {
   padding: 20px;
+
 }
 
 form input, form textarea, form select {
